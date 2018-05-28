@@ -21,6 +21,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StringManipulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringManipulator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintNumberInWord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintNumberInWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrintNumberInWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -62,18 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MijnFuncties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MijnFuncties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" selection-start-line="3" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/MijnSwitch.java" />
         <option value="$PROJECT_DIR$/src/MijnLoopje.java" />
         <option value="$PROJECT_DIR$/src/CookieCallorieCounter.java" />
-        <option value="$PROJECT_DIR$/src/Bank.java" />
         <option value="$PROJECT_DIR$/src/MijnFuncties1.java" />
         <option value="$PROJECT_DIR$/src/OpTellen.java" />
         <option value="$PROJECT_DIR$/src/Sterretjes.java" />
@@ -131,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/Leeftijd.java" />
         <option value="$PROJECT_DIR$/src/MyNumbers.java" />
         <option value="$PROJECT_DIR$/src/StringManipulator.java" />
+        <option value="$PROJECT_DIR$/src/Bank.java" />
       </list>
     </option>
   </component>
@@ -287,7 +284,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="346" y="44" width="1275" height="1179" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,12 +293,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36199096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36199096" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27450982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27450982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -430,24 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sterretjes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -514,6 +496,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sterretjes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>
