@@ -19,7 +19,7 @@ public class TaxCalculator {
         double[] incomeList = {0, 8680, 12360, 20600, 37750};
         double[] taxationAmount = {25, 30, 40, 45, 50};
 
-        
+
 
 
         double totalTaxValue = 0;
