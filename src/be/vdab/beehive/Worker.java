@@ -1,29 +1,56 @@
 package be.vdab.beehive;
 
-public class Worker {
-    int capacity ;
-    int load ;
+public class Worker extends Bee {
+
+    private int capacity;
+   private int load;
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+
+    }
+
+    public int getLoad() {
+        return load;
+    }
+
+    public void setLoad(int load) {
+        this.load = load;
+    }
 
     public Worker() {
-        this(0,100);
+        this("John Doe", 0, 100);
     }
+
     public Worker(int load) {
-        this(load, 100);
-    }
-    public Worker()
-
-    public Worker(int initialLoad,int initialCapacity) {
-        //System.out.println("CONSTRUCTOR");
-        capacity = initialCapacity;
-        load = initialLoad;
+        this("John Doe", load, 100);
     }
 
-    public void gatherNectar() {
-        for (int i = 0; i < 10 && capacity > load; i++) {
-            System.out.println("Visit next flower " + load + "/" + capacity);
-            // visit flower
-            load += 5;
+    public Worker(String name, int load, int capacity) {
+        super(name);
+        System.out.println("Create new worker");
+        this.capacity = capacity;
+        this.load = load;
+    }
 
-        }
+    /**
+     * @return true if capacity remaining, false if full.
+     */
+    public boolean gatherNectar(Flower f) {
+        load += f.nectar;
+
+        System.out.println("Worker "
+                + getName() + " visits flower "
+                + f.name + " to gather "
+                + f.nectar
+                + " amount of nectar so that she is now loaded "
+                + this.load + "/" + this.capacity
+        );
+        f.nectar = 0;
+        return load >= capacity;
     }
 }
